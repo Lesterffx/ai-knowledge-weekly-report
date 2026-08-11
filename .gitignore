@@ -1,0 +1,36 @@
+# Real weekly-report materials and deliveries
+00_模板/
+10_周报需求/
+20_原始工作副本/
+30_知识盘点与周报规划/
+40_周报生成/
+90_版本归档/
+docx_qa_*/
+
+# Generated documents and local artifacts
+*.docx
+*.pdf
+*.xlsx
+*.xls
+*.pptx
+*.zip
+*.tmp
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+secrets.json
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+.pytest_cache/

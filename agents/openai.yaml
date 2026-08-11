@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 知识周报"
+  short_description: "基于证据与人工确认 Gate 的 AI 知识周报工作流"
+  default_prompt: "使用 $ai-knowledge-weekly-report 按项目规则处理本周周报。"
+
+policy:
+  allow_implicit_invocation: true
